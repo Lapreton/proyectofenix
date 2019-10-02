@@ -1,0 +1,160 @@
+@import '~@fullcalendar/core/main.css';
+@import '~@fullcalendar/daygrid/main.css';
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /**animation: App-logo-spin infinite .15s linear;**/
+   max-height: 45px;
+}
+
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(-25deg); }
+  to { transform: rotate(20deg); }
+}
+
+
+
+/****Fuente****/
+main{font-family:serif;}
+main h1, main h2{font-family: sans-serif; color: #B28942;}
+b{font-weight: bold;}
+main a{text-decoration-color: none;}
+/*************/
+
+/***Navegacion***/
+
+.navegacion{background-image: linear-gradient(to right,  #314485,  #314489); padding: 0%;}
+.navegacion a.nav-link, .navbar-toggler, .navegacion p.nav-link{color: rgba(255,254,255,1);}
+.navegacion a.nav-link:hover,.navegacion p.nav-link:hover{color: #DEDE0C; background-color: #0c1f61}
+.navegacion p.nav-link{margin: 0%;}
+.navegacion hr{margin: 0px;}
+.navbar-toggler-icon{background-image: url(../icon/menu.png);}
+.navbar-brand{margin: 0; padding:0%;}
+.dropdown-item p, .dropdown-item{padding-top: 0; padding-bottom: 0; margin:0; transition: 1s;}
+.dropdown-item:hover p{margin-left: 5%; transition: 1s;}
+.navbar-brand span {color: White; text-shadow: 0 0 5px rgba(0,178,255,1),	0 0 10px rgba(0,178,255,1),	0 0 20px rgba(0,178,255,1),	0 0 40px rgba(38,104,127,1),
+		      0 0 80px rgba(38,104,127,1), 0 0 90px rgba(38,104,127,1), 0 0 100px rgba(38,104,127,1),	0 0 140px rgba(38,104,127,1),	0 0 180px rgba(38,104,127,1);}
+.dropdown-menu{background-color:rgba(255,255,255,5);} 
+
+
+/***************/     
+
+
+/**** Gradiente ****/
+body{background-image: linear-gradient(to top left, #ffffff, #efefef);}
+.gradiente{border-radius: 10px;  background-color: blue;}
+.gradiente-fluid{margin: 5% 0 5% 0;}
+/******************/
+
+.row.vdivide [class*='col-']:not(:last-child):after {
+  background: #e0e0e0;
+  width: 1px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  min-height: 70px;
+}
+
+/*********COMPONENTES*********/
+
+/****BTN SUBIR****/
+.iconBtnSubir{border-radius: 100%; margin-bottom: 2px}
+.btnSubir:hover > .iconBtnSubir {
+  transition: .5s;
+  background-color:rgb(37, 10, 10); 
+}
+/*****Fin BTNSUBIR*****/
+
+/****CAROUSEL****/
+.carousel img{height: 100vh;}
+.carousel-inner{ border-radius:  5px;}
+
+/****FIN CAROUSEL****/
+
+/***** FOOTER *****/
+.footer{background-color:  rgba(69, 95, 114, 0.473);color: rgb(124, 118, 118);}
+.footer h3{color: rgb(0,0,0)}
+.escudo{width: 50%; align-self: center;}
+.iconfooter, .iconBtnSubir{height: 20px; width: 20px;}
+.footer .nav-link{color: rgb(78, 52, 52);transition: 0.7s}
+.footer .nav-link:hover{transition: 0.7s; text-decoration: underline}
+/****FIN FOOTER****/
+
+/****FIN COMPONENTES****/
+
+
+/****PAGES****/
+/****INICIO****/
+
+/****FIN INICIO****/
+/****ADMISIONES****/
+.admisiones img{ max-width: 40%;}
+/****FIN ADMISIONES****/
+/****SIMBOLOS INSTITUCIONALES****/
+.simbolosInstitucionales img{ max-width: 80%;}
+/****FIN SIMBOLOS INSTITUCIONALES****/
+/****GRUPO DIRECTIVO****/
+.grupoDirectivo img{ max-width: 255px; border:1px solid blue; border-radius: 100%;}
+/****FIN GRUPO DIRECTIVO****/
+/****CONTACTANOS****/
+.mapa{max-width: 100%;}
+/****FIN CONTACTANOS****/
+/****PREGUNTAS FRECUENTES****/
+.panel-title h4{background-color: #a1a8c0; border-radius: 5px; color:#023974be}
+.panel-title p{background-color: #c0c7dd; border-radius: 5px;}
+/****FIN PREGUNTAS FRECUENTES****/
+/****ERROR****/
+.error img{ max-width: 100%;}
+.error p{color: rgb(85, 77, 77); font-size: 95%;}
+/****FIN ERROR****/
+/****NOTICIAS****/
+.noticias{background-color: rgb(255, 255, 255)}
+/****FIN NOTICIAS****/
+
+/****FIN PAGES****/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+.mision h1{ text-align: left;}
+.vision h1{ text-align: right;}
+.misionvision p{margin: 0 5% 0 5%;}
+.navegacion a.nav-link, .navegacion  p.nav-link{border-bottom: 2px solid rgba(255,255,255,0)}
+.navegacion a.nav-link:hover, .navegacion  p.nav-link:hover{border-color: white;transition:.3s;}
+.navegacion a.nav-link.active, .navegacion  p.nav-link.active{border-color: white}
+.navbar-nav{padding-right: 10%;}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .mision h1{ text-align: left;}
+  .vision h1{ text-align: right;}
+  .misionvision p{margin: 0 5% 0 5%;}
+  .navbar-nav{padding-right: 15%;}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .mision h1{ text-align: center;}
+  .vision h1{ text-align: center;}
+  .navbar-nav{padding-right: 0%;}
+}
+
+@media (max-width: 767px){
+  .navegacion .navbar-brand span{display: none;}
+  .navbar-nav{padding-right: 0%;}
+}
