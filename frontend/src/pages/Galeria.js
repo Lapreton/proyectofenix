@@ -1,6 +1,11 @@
 import React, {Component} from 'react';
 
 class Galeria extends Component {
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return(
 
