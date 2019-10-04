@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import BtnSubir from '../components/btnSubir';
 
 class AdmisionesPreescolar extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
 

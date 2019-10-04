@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import Carousel from '../components/Carousel.js';
 import Noticias from './Noticias.js';
 class Inicio extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
 

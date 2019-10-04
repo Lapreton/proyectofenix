@@ -1,8 +1,11 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 class ResenaHistorica extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
-    return(
+    return (
 
       <main role="main" className="container-fluid gradiente-fluid ">
         <div className="container gradiente shadow-lg bg-light">
@@ -13,20 +16,20 @@ class ResenaHistorica extends Component {
             <div className="col-12 mx-auto">
               <p className="lead pb-5  text-left">
                 <ul>
-                    <li>(01) CARPETA YUTE CON SU GANCHO PLASTICO</li>
+                  <li>(01) CARPETA YUTE CON SU GANCHO PLASTICO</li>
 
-                    <li>3 FOTOS TAMAÑO 3 X 4 FONDO AZUL UNIFORME DE DIARIO</li>
+                  <li>3 FOTOS TAMAÑO 3 X 4 FONDO AZUL UNIFORME DE DIARIO</li>
 
-                    <li>FOTOCOPIA DE REGISTRO CIVIL/ TARJETA DE IDENTIDAD/ CEDULA DE CIUDADANIA</li>
+                  <li>FOTOCOPIA DE REGISTRO CIVIL/ TARJETA DE IDENTIDAD/ CEDULA DE CIUDADANIA</li>
 
 
-                    <li>FOTOCOPIA ENTIDAD PROMOTORA DE SALUD</li>
+                  <li>FOTOCOPIA ENTIDAD PROMOTORA DE SALUD</li>
 
-                    <li>INFORME ACADEMICO AÑOS ANTERIORES</li>
+                  <li>INFORME ACADEMICO AÑOS ANTERIORES</li>
 
-                    <li>PAZ Y SALVO</li>
+                  <li>PAZ Y SALVO</li>
 
-                    <li>HOJA DE MATRICULA</li>
+                  <li>HOJA DE MATRICULA</li>
                 </ul>
               </p>
             </div>

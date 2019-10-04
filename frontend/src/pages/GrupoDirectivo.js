@@ -4,6 +4,9 @@ import coordinador from "../components/assets/coordinador.jpg";
 import logistico from "../components/assets/director.jpg";
 
 class GrupoDirectivo extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
 

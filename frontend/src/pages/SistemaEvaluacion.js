@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import BtnSubir from '../components/btnSubir';
+import cerebro from '../components/assets/Cerebro.png';
 
 class SistemaEvaluacion extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
 
-      <main role="main" className="lead container-fluid gradiente-fluid ">
+      <main role="main" className="lead container-fluid gradiente-fluid sistemaevaluacion">
         <div className="container gradiente shadow-lg bg-light">
 
           <div className="row">
@@ -14,6 +18,11 @@ class SistemaEvaluacion extends Component {
               <h1>Sistema de Evaluación</h1>
               <hr />
             </div>
+            <div className="col-4"></div>
+            <div className="col-4">
+              <img src={cerebro} alt="cerebro sistemaevaluacion"></img>
+            </div>
+            <div className="col-4"></div>
           </div>
 
           <div className="row mx-auto">

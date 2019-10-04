@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 
 class CalendarioAcademico extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
 
@@ -32,14 +35,14 @@ class CalendarioAcademico extends Component {
 
               <p>
                 El año escolar puede comenzar a finales de enero o inicios de febreo y termina a mediados de noviembre, tambien
-                se encuentra dividido en cuatro (4) períodos académicos. 
+                se encuentra dividido en cuatro (4) períodos académicos.
                 <br /><br />
                 En Semana Santa existe un periodo de vacaciones (marzo-abril).
                 <br />
-                Contamos también con un mes de vacaciones a mediados del año (junio—julio) hasta principios de julio.           
+                Contamos también con un mes de vacaciones a mediados del año (junio—julio) hasta principios de julio.
                 <br />
                 Tambien tenemos una semana de receso en octubre.
-                <br /><br />    
+                <br /><br />
                 En el mes de noviembre tenemos las recuperaciones de cursos, donde los estudianes tendrán la oportunidad de recuperar
                 todas las asignaturas reprobadas.
               </p>

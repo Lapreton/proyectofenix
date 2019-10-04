@@ -1,6 +1,3 @@
-@import '~@fullcalendar/core/main.css';
-@import '~@fullcalendar/daygrid/main.css';
-
 .App {
   text-align: center;
 }
@@ -94,7 +91,15 @@ body{background-image: linear-gradient(to top left, #ffffff, #efefef);}
 .footer .nav-link{color: rgb(78, 52, 52);transition: 0.7s}
 .footer .nav-link:hover{transition: 0.7s; text-decoration: underline}
 /****FIN FOOTER****/
-
+/****EVENTO****/
+.evento div.row:nth-child(odd){
+  background-color: #94a6e7dc;
+  color: rgba(19, 10, 10, 0.87);
+}
+.evento div.row:nth-child(even){
+  background-color: #cacdda 
+}
+/****FIN EVENTO****/
 /****FIN COMPONENTES****/
 
 
@@ -104,7 +109,12 @@ body{background-image: linear-gradient(to top left, #ffffff, #efefef);}
 /****FIN INICIO****/
 /****ADMISIONES****/
 .admisiones img{ max-width: 40%;}
-/****FIN ADMISIONES****/
+/****FIN FUNDAMENTOS INSTITUCIONALES****/
+.fundamentosinstitucionales img{ max-width: 80%;}
+/****FIN FUNDAMENTOS INSTITUCIONALES****/
+/****SISTEMA DE EVALUACION****/
+.sistemaevaluacion img{ max-width: 80%;}
+/****FIN SISTEMA DE EVALUACION****/
 /****SIMBOLOS INSTITUCIONALES****/
 .simbolosInstitucionales img{ max-width: 80%;}
 /****FIN SIMBOLOS INSTITUCIONALES****/
@@ -152,9 +162,11 @@ body{background-image: linear-gradient(to top left, #ffffff, #efefef);}
   .mision h1{ text-align: center;}
   .vision h1{ text-align: center;}
   .navbar-nav{padding-right: 0%;}
+  .evento p{font-size: 80%;}
 }
 
 @media (max-width: 767px){
   .navegacion .navbar-brand span{display: none;}
   .navbar-nav{padding-right: 0%;}
+  .evento p{font-size: 70%;}
 }

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import BtnSubir from '../components/btnSubir';
 
 class AdmisionesPrimaria extends Component {
+
   render() {
     return (
 

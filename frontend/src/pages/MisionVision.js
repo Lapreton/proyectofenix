@@ -3,6 +3,9 @@ import misionimg from '../components/assets/mision.png';
 import visionimg from '../components/assets/vision.png';
 
 class MisionVision extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
 

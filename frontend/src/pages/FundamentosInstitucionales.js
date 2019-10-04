@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
+import leyendo from '../components/assets/Leyendo.png';
 
 class FundamentosInstitucionales extends Component {
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
 
-      <main role="main" className="lead container-fluid gradiente-fluid ">
+      <main role="main" className="lead container-fluid gradiente-fluid fundamentosinstitucionales">
         <div className="container gradiente shadow-lg bg-light">
 
           <div className="row">
@@ -13,7 +18,11 @@ class FundamentosInstitucionales extends Component {
               <h1 className="py-5 mx-auto">Fundamentos Institucionales</h1>
               <hr />
             </div>
-
+            <div className="col-4"></div>
+            <div className="col-4">
+              <img src={leyendo} alt="leyendo fundamentosinstituionales"></img>
+            </div>
+            <div className="col-4"></div>
             <div className="col-12 mx-auto text-left">
               <h2 className="py-2">Fundamento Filosófico</h2>
 
