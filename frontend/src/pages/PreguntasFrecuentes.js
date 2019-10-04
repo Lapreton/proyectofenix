@@ -3,6 +3,11 @@ import {NavLink} from 'react-router-dom';
 import pFrecuentes from '../components/assets/PreguntasFrecuentes.png';
 
 class PreguntasFrecuentes extends Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0);
+      }
+
     render() {
         return (
 

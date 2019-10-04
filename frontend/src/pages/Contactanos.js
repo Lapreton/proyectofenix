@@ -3,6 +3,11 @@ import mapa from '../components/assets/Mapa.jpg'
 import facebook from '../icon/facebook.svg';
 import twitter from '../icon/twitter.svg';
 class Contactanos extends Component {
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
 

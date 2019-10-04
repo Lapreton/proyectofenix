@@ -3,6 +3,10 @@ import { NavLink } from 'react-router-dom';
 import fenix from '../components/assets/Fenix.png'
 
 class Error extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
 

@@ -5,6 +5,11 @@ import AdmisionesSecundaria from './AdmisionesSecundaria';
 import Silueta from '../components/assets/Silueta.png'
 
 class Admisiones extends Component {
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
     render() {
         return (
             <div id="admisiones">
