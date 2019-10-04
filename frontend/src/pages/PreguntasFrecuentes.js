@@ -5,8 +5,14 @@ import pFrecuentes from '../components/assets/PreguntasFrecuentes.png';
 class PreguntasFrecuentes extends Component {
 
     componentDidMount() {
+<<<<<<< HEAD
         window.scroll(0, 0);
     }
+=======
+        window.scrollTo(0, 0);
+      }
+
+>>>>>>> edda5d60d1831ef84290777a78bc39fed87ba254
     render() {
         return (
 
