@@ -2,13 +2,6 @@ import React, { Component } from 'react';
 
 class Noticias extends Component {
 
-<<<<<<< HEAD
-=======
-  componentDidMount() {
-    window.scrollTo(0, 0);
-  }
-
->>>>>>> edda5d60d1831ef84290777a78bc39fed87ba254
   render() {
     return (
 

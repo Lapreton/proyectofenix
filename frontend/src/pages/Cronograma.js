@@ -6,10 +6,6 @@ class Cronograma extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
   }
-<<<<<<< HEAD
-=======
-  
->>>>>>> edda5d60d1831ef84290777a78bc39fed87ba254
   render() {
     return (
 

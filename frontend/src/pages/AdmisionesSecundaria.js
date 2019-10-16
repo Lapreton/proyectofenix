@@ -3,10 +3,6 @@ import BtnSubir from '../components/btnSubir';
 
 class AdmisionesSecundaria extends Component {
 
-  componentDidMount() {
-    window.scrollTo(0, 0);
-  }
-
   render() {
     return (
 

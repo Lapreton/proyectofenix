@@ -1,21 +1,13 @@
 import React, { Component } from 'react';
-
+import calendario from '../components/assets/Calendario.png';
 class CalendarioAcademico extends Component {
-<<<<<<< HEAD
   componentDidMount() {
     window.scrollTo(0, 0);
   }
-=======
-
-  componentDidMount() {
-    window.scrollTo(0, 0);
-  }
-
->>>>>>> edda5d60d1831ef84290777a78bc39fed87ba254
   render() {
     return (
 
-      <main role="main" className="lead container-fluid gradiente-fluid ">
+      <main role="main" className="lead container-fluid gradiente-fluid calendarioacademico">
         <div className="container gradiente shadow-lg bg-light">
 
           <div className="row">
@@ -24,6 +16,12 @@ class CalendarioAcademico extends Component {
               <h1 className="">Calendario Académico</h1>
               <hr />
             </div>
+
+            <div className="col-3"></div>
+            <div className="col-6">
+              <img src={calendario} alt="calendario calendarioacademico"></img>
+            </div>
+            <div className="col-3"></div>
 
             <div className="col-12 py-5 mx-auto text-left">
               <p>

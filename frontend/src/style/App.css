@@ -107,10 +107,13 @@ body{background-image: linear-gradient(to top left, #ffffff, #efefef);}
 /****INICIO****/
 
 /****FIN INICIO****/
+/****CALENDARIO ACADEMICO****/
+.calendarioacademico img{ max-width: 100%;}
+/****FIN CALENDARIO ACADEMICO****/
 /****ADMISIONES****/
 .admisiones img{ max-width: 40%;}
 /****FIN FUNDAMENTOS INSTITUCIONALES****/
-.fundamentosinstitucionales img{ max-width: 80%;}
+.fundamentosinstitucionales img{ max-width: 100%;}
 /****FIN FUNDAMENTOS INSTITUCIONALES****/
 /****SISTEMA DE EVALUACION****/
 .sistemaevaluacion img{ max-width: 80%;}
@@ -146,7 +149,7 @@ body{background-image: linear-gradient(to top left, #ffffff, #efefef);}
 .navegacion a.nav-link, .navegacion  p.nav-link{border-bottom: 2px solid rgba(255,255,255,0)}
 .navegacion a.nav-link:hover, .navegacion  p.nav-link:hover{border-color: white;transition:.3s;}
 .navegacion a.nav-link.active, .navegacion  p.nav-link.active{border-color: white}
-.navbar-nav{padding-right: 10%;}
+.navbar-nav{padding-right: 100px;}
 }
 
 /********** Medium devices only **********/
@@ -154,7 +157,7 @@ body{background-image: linear-gradient(to top left, #ffffff, #efefef);}
   .mision h1{ text-align: left;}
   .vision h1{ text-align: right;}
   .misionvision p{margin: 0 5% 0 5%;}
-  .navbar-nav{padding-right: 15%;}
+  .navbar-nav{padding-right: 100px;}
 }
 
 /********** Small devices only **********/

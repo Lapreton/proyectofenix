@@ -3,17 +3,9 @@ import mapa from '../components/assets/Mapa.jpg'
 import facebook from '../icon/facebook.svg';
 import twitter from '../icon/twitter.svg';
 class Contactanos extends Component {
-<<<<<<< HEAD
   componentDidMount() {
     window.scrollTo(0, 0);
   }
-=======
-
-  componentDidMount() {
-    window.scrollTo(0, 0);
-  }
-
->>>>>>> edda5d60d1831ef84290777a78bc39fed87ba254
   render() {
     return (
 

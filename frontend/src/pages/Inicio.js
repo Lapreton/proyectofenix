@@ -2,25 +2,9 @@ import React, { Component } from 'react';
 import Carousel from '../components/Carousel.js';
 import Noticias from './Noticias.js';
 class Inicio extends Component {
-<<<<<<< HEAD
   componentDidMount() {
     window.scrollTo(0, 0);
   }
-=======
-
-  /* 
-  *  Recuerda que todos los componentes de tipo clase o statefull tienen un ciclo de vida;
-  *  por tal motivo es necesario hacer uso del metodo "componentDidMount" para que cuando 
-  *  el componente cargue podamos "reiniciar" el scroll.
-  * 
-  *  https://developer.mozilla.org/es/docs/Web/API/Window/scrollTo
-  */ 
-
-  componentDidMount() {
-    window.scrollTo(0, 0);
-  }
-
->>>>>>> edda5d60d1831ef84290777a78bc39fed87ba254
   render() {
     return (
 
