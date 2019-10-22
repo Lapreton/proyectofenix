@@ -20,6 +20,7 @@ import ResenaHistorica from './pages/ResenaHistorica.js';
 import FundamentosInstitucionales from './pages/FundamentosInstitucionales.js';
 import Contactanos from './pages/Contactanos.js';
 import PreguntasFrecuentes from './pages/PreguntasFrecuentes.js';
+import Glosario from './pages/Glosario.js';
 import Error from './pages/Error.js';
 
 
@@ -43,6 +44,7 @@ class App extends Component {
             <Route path="/FundamentosInstitucionales" component={FundamentosInstitucionales} />
             <Route path="/Contactanos" component={Contactanos} />
             <Route path="/PreguntasFrecuentes" component={PreguntasFrecuentes} />
+            <Route path="/Glosario" component={Glosario} />
             <Route component={Error} />
           </Switch>
           <Footer />

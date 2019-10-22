@@ -49,7 +49,7 @@ class PreguntasFrecuentes extends Component {
                                 ¿Que horario de clases maneja la institución?
                             </h4>
 
-                            <p classNa me="text-left p-3">
+                            <p className="text-left p-3">
                                 La institucion maneja un horario de 7:30 am a 11:30 am para los estudiantes de preescolar, de 6:30 am a 12:00 pm para los estudiantes de
                                 primaria y de 6:30 am a 1:00 pm para los estudianes de bachillerato.
                             </p>

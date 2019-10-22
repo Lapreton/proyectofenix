@@ -28,7 +28,7 @@ class Footer extends Component {
             <div className="col-12 col-sm-12 col-md-6 col-lg-4 text-left">
               <a className="nav-link" href={manual} target="_blank" rel="noopener noreferrer">Reglamento Estudiantil</a>
               <NavLink className="nav-link" to="/PreguntasFrecuentes">Preguntas Frecuentes</NavLink>
-              <NavLink className="nav-link" to="/Glosarios">Glosario</NavLink>
+              <NavLink className="nav-link" to="/Glosario">Glosario</NavLink>
               <NavLink className="nav-link" to="/Contactanos">Ubicación y medios de contacto</NavLink>
               <NavLink className="nav-link" to="/CalendarioAcademico">Calendario Académico</NavLink>
             </div>
