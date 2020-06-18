@@ -28,6 +28,7 @@ main{font-family:serif;}
 main h1, main h2{font-family: sans-serif; color: #B28942;}
 b{font-weight: bold;}
 main a{text-decoration-color: none;}
+main .container{min-height: 500px;}
 /*************/
 
 /***Navegacion***/
@@ -107,6 +108,9 @@ body{background-image: linear-gradient(to top left, #ffffff, #efefef);}
 /****INICIO****/
 
 /****FIN INICIO****/
+/****NOTICIAS****/
+.new{background-color: red; border: solid 1px black}
+/****FIN NOTICIAS****/
 /****CALENDARIO ACADEMICO****/
 .calendarioacademico img{ max-width: 100%;}
 /****FIN CALENDARIO ACADEMICO****/

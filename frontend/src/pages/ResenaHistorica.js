@@ -14,8 +14,7 @@ class ResenaHistorica extends Component {
 
             <h1 className="py-5 mx-auto">Reseña Historica</h1>
             <div className="col-12 mx-auto">
-              <p className="lead pb-5  text-left">
-                <ul>
+                <ul className="lead pb-5  text-left">
                   <li>(01) CARPETA YUTE CON SU GANCHO PLASTICO</li>
 
                   <li>3 FOTOS TAMAÑO 3 X 4 FONDO AZUL UNIFORME DE DIARIO</li>
@@ -31,7 +30,6 @@ class ResenaHistorica extends Component {
 
                   <li>HOJA DE MATRICULA</li>
                 </ul>
-              </p>
             </div>
 
             <div className="">

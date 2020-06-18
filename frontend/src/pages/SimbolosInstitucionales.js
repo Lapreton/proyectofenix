@@ -32,7 +32,7 @@ class SimbolosInstitucionales extends Component {
             <div className="col-12">
 
               <p className="py-5 text-left">
-                El ave Fénix…representa el resurgir de los valores, del conocimiento hu-mano y de la sabiduría transmitida de generación en generación, llevándo-nos a una nueva mejorada sociedad.
+                El ave Fénix…representa el resurgir de los valores, del conocimiento humano y de la sabiduría transmitida de generación en generación, llevándonos a una nueva mejorada sociedad.
                 Fénix por lo tanto es inmortal; así como lo es el conocimiento, que se transmite a través de la enseñanza.
                 </p>
             </div>

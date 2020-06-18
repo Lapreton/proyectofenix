@@ -8,6 +8,7 @@ import Navigation from './components/Navigation.js';
 import Footer from './components/Footer.js';
 //pages
 import Inicio from './pages/Inicio.js';
+import adminNoticias from './pages/adminNoticias.js';
 import Admisiones from './pages/Admisiones.js'
 import GrupoDirectivo from './pages/GrupoDirectivo.js';
 import SistemaEvaluacion from './pages/SistemaEvaluacion.js';
@@ -32,6 +33,7 @@ class App extends Component {
           <Navigation />
           <Switch>
             <Route path="/" component={Inicio} exact />
+            <Route path="/adminNoticias" component={adminNoticias} />
             <Route path="/Admisiones" component={Admisiones} />
             <Route path="/GrupoDirectivo" component={GrupoDirectivo} />
             <Route path="/SistemaEvaluacion" component={SistemaEvaluacion} />

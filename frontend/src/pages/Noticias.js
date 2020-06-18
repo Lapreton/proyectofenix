@@ -1,7 +1,16 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 
 class Noticias extends Component {
 
+  state = {
+    news: []
+  }
+
+  async componentDidMount() {
+    const res = await axios.get('http://localhost:4000/api/news');
+    this.setState({ news: res.data });
+  }
   render() {
     return (
 
@@ -15,24 +24,17 @@ class Noticias extends Component {
             <hr />
           </div>
           <div className="col-1"></div>
-          <div className="col-11 mx-auto">
-
-            <ul>
-              <li>(01) CARPETA YUTE CON SU GANCHO PLASTICO</li>
-
-              <li>3 FOTOS TAMAÑO 3 X 4 FONDO AZUL UNIFORME DE DIARIO</li>
-
-              <li>FOTOCOPIA DE REGISTRO CIVIL/ TARJETA DE IDENTIDAD/ CEDULA DE CIUDADANIA</li>
-
-
-              <li>FOTOCOPIA ENTIDAD PROMOTORA DE SALUD</li>
-
-              <li>INFORME ACADEMICO AÑOS ANTERIORES</li>
-
-              <li>PAZ Y SALVO</li>
-
-              <li>HOJA DE MATRICULA</li>
-            </ul>
+          <div className="col-11 mx-auto pb-5">
+            <div className="row">
+              {
+                this.state.news.map(news =>
+                  <div className="col-3 mx-3 mb-3 new" key={news._id}>
+                    <div className="col-12 py-3 title">{news.title}</div>
+                    <div className="col-12 content">{news.content}</div>
+                  </div>
+                )
+              }
+            </div>  
           </div>
         </div>
       </main>
