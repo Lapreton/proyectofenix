@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import bandera from '../icon/banner.jpg';
+import {Link} from 'react-router-dom';
 
 class Noticias extends Component {
 
@@ -18,20 +20,31 @@ class Noticias extends Component {
 
         <div className="row text-left noticias">
 
-          <div className="col-1"></div>
-          <div className="col-11 py-5">
+          <div className="col-11 ml-auto py-5">
             <h1>Noticias</h1>
             <hr />
-          </div>
-          <div className="col-1"></div>
-          <div className="col-11 mx-auto pb-5">
+          </div>          
+          <div className="col-10 mx-auto pb-5">
             <div className="row">
               {
                 this.state.news.map(news =>
-                  <div className="col-3 mx-3 mb-3 new" key={news._id}>
-                    <div className="col-12 py-3 title">{news.title}</div>
-                    <div className="col-12 content">{news.content}</div>
-                  </div>
+                  <div className="col-12 col-md-4 col-lg-4 my-5" key={news._id}>
+                    <div className="row">                       
+                      <div className="col-10 mx-auto bg-transparent">
+                        <div className="row">
+                          <img src={bandera} className="img-fluid imgnew" alt=" s"/>
+                          <div className="col-12 py-1"></div>
+                          <div className="new col-12">
+                            <div className="row">
+                              <div className="col-12 p-0 title">{news.title}</div>
+                              <div className="col-12 text-left card-body description"><p>{news.description}</p></div>
+                              <div className="col-12 card-footer p-0"><Link to={"/leerNoticia/" + news._id} >Leer más</Link></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>            
+                  </div> 
                 )
               }
             </div>  

@@ -9,7 +9,8 @@ import Footer from './components/Footer.js';
 //pages
 import Inicio from './pages/Inicio.js';
 import adminNoticias from './pages/adminNoticias.js';
-import Admisiones from './pages/Admisiones.js'
+import leerNoticia from './pages/leerNoticia.js';
+import Admisiones from './pages/Admisiones.js';
 import GrupoDirectivo from './pages/GrupoDirectivo.js';
 import SistemaEvaluacion from './pages/SistemaEvaluacion.js';
 import Cronograma from './pages/Cronograma.js';
@@ -34,6 +35,7 @@ class App extends Component {
           <Switch>
             <Route path="/" component={Inicio} exact />
             <Route path="/adminNoticias" component={adminNoticias} />
+            <Route path="/leerNoticia/:id" component={leerNoticia} />
             <Route path="/Admisiones" component={Admisiones} />
             <Route path="/GrupoDirectivo" component={GrupoDirectivo} />
             <Route path="/SistemaEvaluacion" component={SistemaEvaluacion} />

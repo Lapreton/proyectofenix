@@ -109,7 +109,11 @@ body{background-image: linear-gradient(to top left, #ffffff, #efefef);}
 
 /****FIN INICIO****/
 /****NOTICIAS****/
-.new{background-color: red; border: solid 1px black}
+.noticias{ background-color: rgba(189, 155, 155, 0.12);}
+.new{border: 1px solid black;}
+.new .title{ background-color: #4c6dc7cc;}
+.new .description{background-color: #fff2f2; font-style: italic; height: 160px;}
+
 /****FIN NOTICIAS****/
 /****CALENDARIO ACADEMICO****/
 .calendarioacademico img{ max-width: 100%;}
@@ -139,9 +143,6 @@ body{background-image: linear-gradient(to top left, #ffffff, #efefef);}
 .error img{ max-width: 100%;}
 .error p{color: rgb(85, 77, 77); font-size: 95%;}
 /****FIN ERROR****/
-/****NOTICIAS****/
-.noticias{background-color: rgb(255, 255, 255)}
-/****FIN NOTICIAS****/
 
 /****FIN PAGES****/
 

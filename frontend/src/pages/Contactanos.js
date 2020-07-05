@@ -48,7 +48,7 @@ class Contactanos extends Component {
                 Puedes contactarnos de lunes a viernes desde las 07:00 a.m hasta las 01:30 p.m
                 <br /><br />
                 También puedes seguirnos en nuestras redes sociales donde podrás ver contenido de la institución como también
-                podráss enviarnos mensajes y obtener más información:
+                podrás enviarnos mensajes y obtener más información:
                 <br />
               </p>
 
