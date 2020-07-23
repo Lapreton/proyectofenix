@@ -38,7 +38,7 @@ class Noticias extends Component {
                             <div className="row">
                               <div className="col-12 p-0 title">{news.title}</div>
                               <div className="col-12 text-left card-body description"><p>{news.description}</p></div>
-                              <div className="col-12 card-footer p-0"><Link to={"/leerNoticia/" + news._id} >Leer más</Link></div>
+                              <div className="col-12 card-footer p-0"><Link to={"/leerNoticia/" + news._id} target="_blank" rel="noopener noreferrer">Leer más</Link></div>
                             </div>
                           </div>
                         </div>

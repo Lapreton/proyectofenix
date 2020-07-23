@@ -109,12 +109,14 @@ body{background-image: linear-gradient(to top left, #ffffff, #efefef);}
 
 /****FIN INICIO****/
 /****NOTICIAS****/
-.noticias{ background-color: rgba(189, 155, 155, 0.12);}
+.noticias{ background-color: rgba(175, 160, 160, 0.06);}
 .new{border: 1px solid black;}
 .new .title{ background-color: #4c6dc7cc;}
 .new .description{background-color: #fff2f2; font-style: italic; height: 160px;}
-
 /****FIN NOTICIAS****/
+/****LeerNoticia****/
+.newContent{white-space: pre-line;}
+/****FIN LeerNoticia****/
 /****CALENDARIO ACADEMICO****/
 .calendarioacademico img{ max-width: 100%;}
 /****FIN CALENDARIO ACADEMICO****/

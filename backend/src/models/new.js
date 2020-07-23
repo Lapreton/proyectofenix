@@ -14,9 +14,13 @@ const newSchema = new Schema({
         type: String,
         required: true
     },
+    fecha:{
+        type: String,
+    },
     date:{
         type: Date
     }
+
 },{
     timestamps: true
 })

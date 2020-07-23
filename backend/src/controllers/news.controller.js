@@ -3,16 +3,17 @@ const newsCtrl = {};
 const newModel = require('../models/new');
 
 newsCtrl.getNews = async (req, res) => {   
-    const news = await newModel.find();
+    const news = await newModel.find().sort({date:-1});
     res.json(news);
 };
 
 newsCtrl.createNew = async (req, res) => {
-    const { title, description, content, date} = req.body;
+    const { title, description, content, fecha, date} = req.body;
     const newNew =  new newModel({
         title: title,
         description: description,
         content: content,
+        fecha: fecha,
         date: date
     })
     console.log(newNew);
@@ -26,11 +27,12 @@ newsCtrl.deleteNew = async (req, res) => {
 };
 
 newsCtrl.updateNew = async (req, res) => {
-    const {title, description, content, date} = req.body;
-    await newModel.findOneAndUpdate(req.params.id, {
+    const {title, description, content, fecha, date} = req.body;
+    await newModel.findByIdAndUpdate(req.params.id, {
         title: title,
         description: description,
         content: content,
+        fecha: fecha,
         date: date
     })
     res.json({message:'New updated'});

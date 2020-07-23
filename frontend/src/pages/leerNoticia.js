@@ -5,14 +5,15 @@ class leerNoticia extends Component {
 
     state = {
         news: [],
-        title:'',
-        description:'',
+        title: '',
+        description: '',
         content: '',
         date: new Date(),
-        _id:''
+        _id: ''
     }
 
     async componentDidMount() {
+        window.scrollTo(0, 0);
         this.getNew(this.props.match.params.id);
     }
 
@@ -23,16 +24,14 @@ class leerNoticia extends Component {
             title: res.data.title,
             description: res.data.description,
             content: res.data.content,
-
         })
-        console.log(res);
     }
 
     render() {
         return (
             <main role="main" className="lead container-fluid gradiente-fluid">
                 {
-                    <div className="row container shadow-lg bg-light m-auto gradiente noticias">
+                    <div className="row container shadow-lg bg-light m-auto gradiente leerNoticias">
                         <div className="col-12 py-5">
                             <h1>{this.state.title}</h1>
                             <hr />
@@ -40,7 +39,7 @@ class leerNoticia extends Component {
                         <div className="col-10 mx-auto py-5">
                             <i>"{this.state.description}"</i>
                         </div>
-                        <div className="col-10 mx-auto text-left py-5">
+                        <div className="col-10 mx-auto text-left py-5 newContent">
                             <p>{this.state.content}</p>
                         </div>
                     </div>

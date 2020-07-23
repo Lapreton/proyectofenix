@@ -8,6 +8,7 @@ import Navigation from './components/Navigation.js';
 import Footer from './components/Footer.js';
 //pages
 import Inicio from './pages/Inicio.js';
+import Admin from './pages/Admin.js';
 import adminNoticias from './pages/adminNoticias.js';
 import leerNoticia from './pages/leerNoticia.js';
 import Admisiones from './pages/Admisiones.js';
@@ -34,6 +35,7 @@ class App extends Component {
           <Navigation />
           <Switch>
             <Route path="/" component={Inicio} exact />
+            <Route path="/Admin" component={Admin} />
             <Route path="/adminNoticias" component={adminNoticias} />
             <Route path="/leerNoticia/:id" component={leerNoticia} />
             <Route path="/Admisiones" component={Admisiones} />
